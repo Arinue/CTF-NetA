@@ -1,6 +1,7 @@
 # CTF-NetA: CTF网络流量分析工具
 
 CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的流量包（.pcapng）进行分析和提取flag，而且还有UI，不需要使用者具备任何基础能力。
+![image](https://github.com/Arinue/CTF-NetA/assets/38693947/0ecc7d40-d3c7-4e37-abe6-67f99397de1d)
 
 ## 功能
 

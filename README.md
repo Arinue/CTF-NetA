@@ -1,7 +1,10 @@
 # CTF-NetA: CTF网络流量分析工具
 
 CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的流量包（.pcapng）进行分析和提取flag，而且还有UI，不需要使用者具备任何基础能力。
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/0ecc7d40-d3c7-4e37-abe6-67f99397de1d)
+
+
+![image](https://github.com/Arinue/CTF-NetA/assets/38693947/1719633e-5e95-4312-b0ab-af3736adca2a)
+
 
 ## 功能
 
@@ -10,7 +13,7 @@ CTF-NetA具有以下功能：
 - 检测明文和常规编码的flag文本
 - USB流量还原（包括鼠标和键盘）
 - 无线流量暴力破解密码，破解密码后自动分析
-- SQL盲注流量分析,支持二分法
+- SQL盲注流量分析,支持二分法,支持盲注正则自动识别
 - ICMP流量分析（TTL、DATA.len、DATA、ICMP.code）
 - Telnet流量分析
 - FTP流量分析(识别登录成功的用户名和密码)

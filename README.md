@@ -19,6 +19,7 @@ CTF-NetA具有以下功能：
 - ICMP流量分析（TTL、DATA.len、DATA、ICMP.code）
 - Telnet流量分析
 - FTP流量分析(识别登录成功的用户名和密码)
+- SMTP流量分析(识别登录成功的用户名和密码)
 - 蓝牙流量分析
 - 工业控制流量支持MMS
 - TLS流量使用keylog_file自动解密分析

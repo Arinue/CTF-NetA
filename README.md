@@ -1,7 +1,7 @@
 
 # CTF-NetA: CTF网络流量分析工具
-[![Build Status](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Arinue)
-[![GitHub release](https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release)](https://github.com/Arinue/CTF-NetA/releases)
+[![Build Status](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://download.csdn.net/download/qq_33295410/88301195)
+[![GitHub download](https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release)](https://download.csdn.net/download/qq_33295410/88301195)
 
 CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的流量包（.pcapng）进行分析和提取flag，而且还有UI，不需要使用者具备任何基础能力。
 
@@ -29,6 +29,7 @@ CTF-NetA具有以下功能：
 - 一键修复错误流量包
 
 ## 安装
+###<a href="https://download.csdn.net/download/qq_33295410/88301195">点击下载</a>
 
 CTF-NetA无需安装，解压即可使用。
 

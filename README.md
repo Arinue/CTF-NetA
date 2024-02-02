@@ -53,8 +53,9 @@ CTF-NetA使用GNU通用公共许可证v3.0进行许可。你可以自由地使�
 - 工控流量
   1. Modbus协议分析
 - 综合分析
-- other
   1.  cobaltstrike 流量解密
+- other
+  1.更新可选分析协议和内容
 
 ## 更新记录
 ```

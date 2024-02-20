@@ -63,6 +63,7 @@ CTF-NetA使用GNU通用公共许可证v3.0进行许可。你可以自由地使�
 ```
 v0.3.0 20240220
 1.支持cs流量解密分析（需要提供.cobaltstrike.beacon_keys）
+2.修复MMS流量分析BUG。
 
 v0.2.9 20240130
 1.加入其他工具（CyberChef）

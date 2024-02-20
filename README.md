@@ -7,6 +7,7 @@ CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常
 
 
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/bd06701b-dc94-4426-a707-ecef32a0bcd6)
+![image](https://github.com/Arinue/CTF-NetA/assets/38693947/b973ed5e-450e-4fbb-889c-96880298a2e7)
 
 
 
@@ -53,12 +54,15 @@ CTF-NetA使用GNU通用公共许可证v3.0进行许可。你可以自由地使�
 - 工控流量
   1. Modbus协议分析
 - 综合分析
-  1.  cobaltstrike 流量解密
+  1.  cobaltstrike 流量解密 【√】
 - other
   1.更新可选分析协议和内容
 
 ## 更新记录
 ```
+v0.3.0 20240220
+1.支持cs流量解密分析（需要提供.cobaltstrike.beacon_keys）
+
 v0.2.9 20240130
 1.加入其他工具（CyberChef）
 
@@ -116,3 +120,4 @@ v0.1.33
 感谢以下项目：
 
 > https://github.com/gchq/CyberChef
+> https://github.com/5ime/CS_Decrypt

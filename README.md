@@ -23,12 +23,14 @@ CTF-NetA具有以下功能：
 - Telnet流量分析
 - FTP流量分析(识别登录成功的用户名和密码)
 - SMTP流量分析(识别登录成功的用户名和密码)
+- cs通信流量解密分析（需要提供.cobaltstrike.beacon_keys）
 - 蓝牙流量分析
 - 工业控制流量支持MMS
 - TLS流量使用keylog_file自动解密分析
 - 一键分离文件（导出的部分文件会存在问题，可进行手动导出）
 - 一键导出dicom,ftp-data,http,imf,smb,tftp协议对象
 - 一键修复错误流量包
+- 
 
 ## 安装
 ### <a href="https://download.csdn.net/download/qq_33295410/88301195">点击下载</a>

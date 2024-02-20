@@ -53,16 +53,16 @@ CTF-NetA使用GNU通用公共许可证v3.0进行许可。你可以自由地使�
 - sql盲注
   1. 时间盲注
 - 工控流量
-  2. Modbus 【√】
-  3. MMS【√】
-  4.  IEC60870【√】
-  5.  MQTT
-  6.  CoAP
-  7.  COTP
-  8.  IEC104
-  9.  IEC61850
-  10.  S7comm
-  11.  OMRON
+1. Modbus 【√】
+2. MMS【√】
+3. IEC60870【√】
+4. MQTT
+5. CoAP
+6. COTP
+7. IEC104
+8. IEC61850
+9. S7comm
+10. OMRON
 - 综合分析
   1.  cobaltstrike 流量解密 【√】
 - other

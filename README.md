@@ -25,7 +25,7 @@ CTF-NetA具有以下功能：
 - SMTP流量分析(识别登录成功的用户名和密码)
 - cs通信流量解密分析（需要提供.cobaltstrike.beacon_keys）
 - 蓝牙流量分析
-- 工业控制流量支持MMS
+- 工业控制流量支持MMS、modbus、iec60870
 - TLS流量使用keylog_file自动解密分析
 - 一键分离文件（导出的部分文件会存在问题，可进行手动导出）
 - 一键导出dicom,ftp-data,http,imf,smb,tftp协议对象
@@ -53,12 +53,9 @@ CTF-NetA使用GNU通用公共许可证v3.0进行许可。你可以自由地使�
 - sql盲注
   1. 时间盲注
 - 工控流量
-  1. Modbus协议分析
-- 综合分析
-  1.  cobaltstrike 流量解密 【√】
-  2.  Modbus
-  3.  MMS
-  4.  IEC60870
+  2. Modbus 【√】
+  3. MMS【√】
+  4.  IEC60870【√】
   5.  MQTT
   6.  CoAP
   7.  COTP
@@ -66,11 +63,17 @@ CTF-NetA使用GNU通用公共许可证v3.0进行许可。你可以自由地使�
   9.  IEC61850
   10.  S7comm
   11.  OMRON
+- 综合分析
+  1.  cobaltstrike 流量解密 【√】
 - other
   1.更新可选分析协议和内容
 
 ## 更新记录
 ```
+v0.3.1 20240221
+1.支持分析工控协议modbus
+2.支持分析工控协议iec60870
+
 v0.3.0 20240220
 1.支持cs流量解密分析（需要提供.cobaltstrike.beacon_keys）
 2.修复MMS流量分析BUG。

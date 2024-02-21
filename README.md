@@ -6,7 +6,8 @@
 CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的流量包（.pcapng）进行分析和提取flag，而且还有UI，不需要使用者具备任何基础能力。
 
 
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/bd06701b-dc94-4426-a707-ecef32a0bcd6)
+![image](https://github.com/Arinue/CTF-NetA/assets/38693947/1f1a8540-4b7f-43ca-9c2f-ef7b631ea8ed)
+
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/b973ed5e-450e-4fbb-889c-96880298a2e7)
 
 
@@ -25,7 +26,7 @@ CTF-NetA具有以下功能：
 - SMTP流量分析(识别登录成功的用户名和密码)
 - cs通信流量解密分析（需要提供.cobaltstrike.beacon_keys）
 - 蓝牙流量分析
-- 工业控制流量支持MMS、modbus、iec60870
+- 工业控制流量支持MMS、modbus、iec60870,mqtt,s7com,OMRON
 - TLS流量使用keylog_file自动解密分析
 - 一键分离文件（导出的部分文件会存在问题，可进行手动导出）
 - 一键导出dicom,ftp-data,http,imf,smb,tftp协议对象
@@ -56,13 +57,13 @@ CTF-NetA使用GNU通用公共许可证v3.0进行许可。你可以自由地使�
 1. Modbus 【√】
 2. MMS【√】
 3. IEC60870【√】
-4. MQTT
+4. MQTT【√】
 5. CoAP
 6. COTP
 7. IEC104
 8. IEC61850
-9. S7comm
-10. OMRON
+9. S7comm【√】
+10. OMRON【√】
 - 综合分析
   1.  cobaltstrike 流量解密 【√】
 - other
@@ -70,6 +71,11 @@ CTF-NetA使用GNU通用公共许可证v3.0进行许可。你可以自由地使�
 
 ## 更新记录
 ```
+v0.3.2 20240221
+1.支持分析工控协议mqtt
+2.支持分析工控协议s7comm
+3.支持分析工控协议omron
+
 v0.3.1 20240221
 1.支持分析工控协议modbus
 2.支持分析工控协议iec60870

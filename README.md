@@ -98,6 +98,10 @@ CTF-NetA使用<a href="./LICENSE">Apache License 2.0</a>进行许可。你可以
 
 ## 更新记录
 ```
+v0.3.9 20240226
+1.修复多处闪退BUG
+2.支持http post请求的sql盲注
+
 v0.3.8 20240225
 1.支持IPID数据提取
 2.添加webshell流量解密信息关键字高亮

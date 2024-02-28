@@ -49,7 +49,7 @@ CTF-NetA无需安装，解压即可使用。
 
 ## 许可
 
-CTF-NetA使用<a href="./LICENSE">Apache License 2.0</a>进行许可。你可以自由地使用它，只要你遵守许可证的条款和条件。
+CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由地使用它，只要你遵守许可证的条款和条件。
 
 ## 联系
 

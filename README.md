@@ -94,10 +94,14 @@ CTF-NetA使用<a href="./LICENSE">Apache License 2.0</a>进行许可。你可以
   9. 
 - other
   1. 更新可选分析协议和内容【√】
-  2. 优化UI和运行速度
+  2. 优化UI和运行速度 【√】
 
 ## 更新记录
 ```
+v0.4.0 20240226
+1.支持ICMP IDBE和IDLE识别，添加识别结果关键字高亮
+2.修复多处已知BUG
+
 v0.3.9 20240226
 1.修复多处闪退BUG
 2.支持http post请求的sql盲注

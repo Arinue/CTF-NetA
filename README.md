@@ -24,7 +24,7 @@ CTF-NetA具有以下功能：
 - SQL盲注流量分析,支持二分法,支持盲注,自动识别flag
 - ICMP流量分析（TTL、DATA.len、DATA、ICMP.code）
 - Telnet流量分析
-- FTP流量分析(识别登录成功的用户名和密码)
+- FTP/FTP-DATA流量分析
 - SMTP流量分析(识别登录成功的用户名和密码)
 - cs通信流量解密分析（需要提供.cobaltstrike.beacon_keys）
 - 蓝牙流量分析
@@ -81,6 +81,9 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
   3.  USB流量分析【√】
   4.  shiro流量解密和分析
   5.  struts2流量解密和分析
+  6.  哥斯拉wenshell识别和解密
+  7.  冰蝎wenshell识别和解密
+  8.  蚁剑wenshell识别和解密
 - 协议
   1. DNS 【√】
   2. FTP 【√】
@@ -93,10 +96,27 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
   9. 
 - other
   1. 更新可选分析协议和内容【√】
-  2. 优化UI和运行速度 【√】
+  2. 优化UI和运行速度 【-】
 
 ## 更新记录
 ```
+v0.4.3 20240301
+1.修复FTP不同版本流量区别，添加操作命令展示
+2.支持FTP-DATA传输文件自动保存
+3.更改HTTP文件下载保存到output文件夹下
+4.修复诸多BUG
+5.优化手动修改sql注入正则输入体验
+
+v0.4.2 20240229
+1.修复HTTP文件下载识别中media.type数据同步出错闪退
+2.更改关键字识别为可选、功能管理滑动条
+3.支持TCP DATA数据检测和识别，例题在"\Example\TCPDATA\zip.pcapng"
+
+v0.4.1 20240228
+1.优化启动速度，加快4s左右。
+2.修复CS流量分析中数据解析异常闪退BUG
+3.修复sql盲注中数据未对齐闪退BUG
+
 v0.4.0 20240226
 1.支持ICMP IDBE和IDLE识别，添加识别结果关键字高亮
 2.修复多处已知BUG

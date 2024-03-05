@@ -4,6 +4,8 @@
 [![GitHub download](https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release)](https://download.csdn.net/download/qq_33295410/88301195)
 
 CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析提取flag，软件具有UI，不需要使用者具备任何基础能力。
+![image](https://github.com/Arinue/CTF-NetA/assets/38693947/3e14cec3-80c0-4b56-987b-8d34818a1574)
+
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/92df8da1-e4b3-48e4-a348-f879d899edc3)
 
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/94d79f45-343e-4d8f-b2bd-68ba1abe7cbe)
@@ -102,6 +104,9 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+v0.4.4 20240304
+1.支持SQL注入中间件日志分析
+
 v0.4.3 20240301
 1.修复FTP不同版本流量区别，添加操作命令展示
 2.支持FTP-DATA传输文件自动保存

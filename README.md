@@ -4,6 +4,8 @@
 [![GitHub download](https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release)](https://download.csdn.net/download/qq_33295410/88301195)
 
 CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析提取flag，软件具有UI，不需要使用者具备任何基础能力。
+![image](https://github.com/Arinue/CTF-NetA/assets/38693947/8df9554c-60aa-459e-ba24-0da1163273e3)
+
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/3e14cec3-80c0-4b56-987b-8d34818a1574)
 
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/92df8da1-e4b3-48e4-a348-f879d899edc3)
@@ -86,8 +88,9 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
   4.  shiro流量解密和分析
   5.  struts2流量解密和分析
   6.  哥斯拉wenshell识别和解密
-  7.  冰蝎wenshell识别和解密
-  8.  蚁剑wenshell识别和解密
+     哥斯拉4.0（PHP_EVAL_XOR_BASE64)[√]
+  8.  冰蝎wenshell识别和解密
+  9.  蚁剑wenshell识别和解密
 - 协议
   1. DNS 【√】
   2. FTP 【√】
@@ -104,6 +107,10 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+v1.0.1 20240308
+1.更改UI使用pyqt6编写
+2.支持哥斯拉4.0（PHP_EVAL_XOR_BASE64）流量识别和解密
+
 v0.4.4 20240304
 1.支持SQL注入中间件日志分析
 

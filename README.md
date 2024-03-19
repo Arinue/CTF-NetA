@@ -4,6 +4,8 @@
 [![GitHub download](https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release)](https://download.csdn.net/download/qq_33295410/88301195)
 
 CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析提取flag，软件具有UI，不需要使用者具备任何基础能力。
+![image](https://github.com/Arinue/CTF-NetA/assets/38693947/ce460ba9-33f7-43de-b961-d17f030aa882)
+
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/ac4b868b-50dc-4dbe-ae50-8674ab43f014)
 
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/8df9554c-60aa-459e-ba24-0da1163273e3)
@@ -48,7 +50,7 @@ CTF-NetA具有以下功能：
     哥斯拉 php jsp
 
 ## 获取软件
-编写该程序花费了本人大量时间，只需捐赠一杯咖啡即可获取软件,或者<a href="https://qm.qq.com/q/FPn1EK1cYO>373967548">点击链接加入群聊【CTF流量分析讨论】</a>或加入qq群`373967548`即可获取免费版使用，后期我将继续更新。
+编写该程序花费了本人大量时间，只需捐赠一杯咖啡即可获取软件,<a href="https://qm.qq.com/q/FPn1EK1cYO>373967548">点击链接加入群聊【CTF流量分析讨论】</a>或搜索qq群`373967548`，后期将不定时更新。
 
 ## 使用
 
@@ -72,8 +74,8 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 - Webshell流量分析
 1. 菜刀蚁剑常规php流量分析【√】
 2. 冰蝎3.x流量解密和分析
-3. 冰蝎4.x流量解密和分析
-4. 哥斯拉流量解密和分析
+3. 冰蝎4.x流量解密和分析【√】
+4. 哥斯拉流量解密和分析【√】
 - 工控流量
 1. Modbus 【√】
 2. MMS【√】
@@ -97,7 +99,9 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
  哥斯拉4.0 asp
 
   8.  冰蝎wenshell识别和解密
-  9.  蚁剑wenshell识别和解密
+     冰蝎4.1 php【√】
+     冰蝎4.1 jsp【√】
+  10.  蚁剑wenshell识别和解密
 - 协议
   1. DNS 【√】
   2. FTP 【√】
@@ -114,6 +118,12 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+v1.0.3 20240319
+1.webshell解密后高亮关键字"flag"
+2.修复ftp协议中分段传输文件自动保存不完整的问题
+3.支持冰蝎4.1 php和java各种加密类型的webshell识别及解密，自动暴力破解密钥。
+4.修复部分关键高亮异常BUG
+
 v1.0.2 20240311
 1.优化telnet流量分析，按照IP整理消息，处理特殊按键输入
 2.更换4.2.0版本的tshark

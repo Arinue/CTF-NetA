@@ -67,6 +67,10 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 ## 联系
 
 时间紧工作忙，胡乱堆的代码，如果你发现任何问题，或有其他建议，请加QQ群373967548反馈。当然如果该软件对你有所帮助，希望你能点个Star！
+## 圈钱
+![支付宝](https://github.com/Arinue/CTF-NetA/assets/38693947/e24b4665-a636-4c03-9b1d-d6a2db3d79cd)
+![image](https://github.com/Arinue/CTF-NetA/assets/38693947/74438f6f-8e2e-4fd2-aa99-f2f34188ca79)
+
 ## TODO
 - sql盲注
   1. 常规盲注【√】
@@ -258,6 +262,7 @@ v0.1.33
 1.修复部分bug。
 2.修复wifi流量破解密码后重新分析数据异常。
 ```
+
 ## 感谢
 
 感谢以下项目：

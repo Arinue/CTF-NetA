@@ -8,6 +8,7 @@ CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常
 编写该程序花费了本人大量时间，只需捐赠一杯咖啡即可获取并永久使用该软件（捐赠后加群联系群主）,另外<a href="https://qm.qq.com/q/FPn1EK1cYO>373967548">点击链接加入群聊【CTF流量分析讨论】不定时赠送注册码</a>，后期将持续更新更多功能。
 
 ---
+![image](https://github.com/Arinue/CTF-NetA/assets/38693947/08576915-cf95-4651-830d-843bfe23f8f8)
 
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/ce460ba9-33f7-43de-b961-d17f030aa882)
 
@@ -51,8 +52,7 @@ CTF-NetA具有以下功能：
 - 识别端口扫描（开放的端口）
 - DNS流量分析
 - 自动保存HTTP传输文件
-- webshell流量识别和自动解密
-    哥斯拉 php jsp
+- webshell流量一键自动识别和解密
 
 ## 使用
 
@@ -107,8 +107,8 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
   8.  冰蝎wenshell识别和解密
      冰蝎4.1 php【√】
      冰蝎4.1 jsp【√】
-  10.  蚁剑webshell识别和解密
-  11.  菜刀webshell识别和解密
+  10.  蚁剑webshell识别和解密【√】
+  11.  菜刀webshell识别和解密【√】
 - 协议
   1. DNS 【√】
   2. FTP 【√】
@@ -129,6 +129,10 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+v1.1.3 20240326
+1.调整Behinder4_PHP_WITH_AES解密中增加16位冗余数据处理
+2.菜刀蚁剑webshell流量解密功能重构上线
+
 v1.1.2 20240324
 1.修复存在自定义关键是错误正则时闪退
 2.支持优先检查流量中传输的webshell密钥，再进行暴力破解

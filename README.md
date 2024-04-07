@@ -129,6 +129,11 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+v1.1.6 20240407
+1.支持中间件日志SQL注入查询单个字符识别(例题：Example\SQL盲注日志\字符型注入.log)
+2.增加wifi流量分析和破解密码兼容性
+3.支持UDP协议DATA数据识别
+
 v1.1.5 20230402
 1.修复sql日志分析闪退BUG
 2.支持ICMP协议frame.len长度识别

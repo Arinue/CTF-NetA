@@ -8,25 +8,7 @@ CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常
 编写该程序花费了本人大量时间，只需捐赠一杯咖啡即可获取并永久使用该软件（捐赠后加群联系群主）,另外<a href="https://qm.qq.com/q/FPn1EK1cYO>373967548">点击链接加入群聊【CTF流量分析讨论】不定时赠送注册码</a>，后期将持续更新更多功能。
 
 ---
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/08576915-cf95-4651-830d-843bfe23f8f8)
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/ce460ba9-33f7-43de-b961-d17f030aa882)
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/ac4b868b-50dc-4dbe-ae50-8674ab43f014)
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/8df9554c-60aa-459e-ba24-0da1163273e3)
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/3e14cec3-80c0-4b56-987b-8d34818a1574)
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/92df8da1-e4b3-48e4-a348-f879d899edc3)
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/94d79f45-343e-4d8f-b2bd-68ba1abe7cbe)
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/43b96f3d-5c1d-44cd-adef-b6a2cedbb34d)
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/1f1a8540-4b7f-43ca-9c2f-ef7b631ea8ed)
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/b973ed5e-450e-4fbb-889c-96880298a2e7)
+![image](https://github.com/Arinue/CTF-NetA/assets/38693947/5193b59d-fd74-40ea-b2fa-974f47e51041)
 
 
 
@@ -129,6 +111,16 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+v1.2.1 20240409
+1.支持ETL类型流量转PCAPNG
+2.改关键字匹配时全文输出为精简输出（关键字前30至后80）
+3.添加检测到http关键的包序号
+
+v1.2.0 20240408
+1.支持输出控制台多个关键字遍历查找并高亮
+2.修复多处已知BUG
+3.部分UI调整
+
 v1.1.6 20240407
 1.支持中间件日志SQL注入查询单个字符识别(例题：Example\SQL盲注日志\字符型注入.log)
 2.增加wifi流量分析和破解密码兼容性

@@ -1,8 +1,8 @@
 
 # CTF-NetA: CTF网络流量分析工具
-[![Build Status](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://download.csdn.net/download/qq_33295410/88301195)
-[![GitHub download](https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release)](https://download.csdn.net/download/qq_33295410/88301195)
-
+[![Build Status](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](#)
+[![GitHub download](https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release)](https://github.com/Arinue/CTF-NetA/releases)
+<a href="https://qm.qq.com/q/FPn1EK1cYO>373967548"><img src="https://img.shields.io/badge/QQ%E7%BE%A4-373967548-orange?style=flat-square" alt="QQGroup"></a>
 CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析提取flag，软件具有UI，不需要使用者具备任何基础能力。
 ## 获取软件
 编写该程序花费了本人大量时间，只需捐赠一杯咖啡即可获取并永久使用该软件（捐赠后加群联系群主）,另外<a href="https://qm.qq.com/q/FPn1EK1cYO>373967548">点击链接加入群聊【CTF流量分析讨论】不定时赠送注册码</a>，后期将持续更新更多功能。

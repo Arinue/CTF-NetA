@@ -36,7 +36,9 @@ CTF-NetA具有以下功能：
 - DNS流量分析
 - 自动保存HTTP传输文件
 - webshell流量一键自动识别和解密
-
+- 一键转换etl为pcapng
+- UDP协议数据分析
+- ...
 ## 使用
 
 CTF-NetA无需安装，解压即可使用。你可以使用以下命令来运行CTF-NetA：`CTF-NetA.exe`，当然更简单的方法是双击打开~~

@@ -339,3 +339,5 @@ v0.1.33
 > https://github.com/5ime/CS_Decrypt
 >
 > https://gitee.com/fengerxi/large-set-of-ctf-flow-problems
+>
+> https://github.com/y1shiny1shin/USBFlow_Soer

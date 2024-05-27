@@ -6,7 +6,7 @@
 
 CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析提取flag，软件具有UI，不需要使用者具备任何基础能力。
 ## 获取软件
-编写该程序花费了本人大量时间，只需捐赠一杯咖啡即可获取并永久使用该软件（捐赠后加群联系群主）,另外<a href="https://qm.qq.com/q/uxHLf7xifg">点击链接加入群聊【CTF流量分析讨论】不定时赠送注册码</a>，后期将持续更新更多功能。
+编写该程序花费了本人大量休息时间，只需捐赠一杯咖啡即可获取并永久使用该软件（捐赠后加🐧群970434034联系群主）,<a href="https://qm.qq.com/q/uxHLf7xifg">点击链接加入群聊【CTF流量分析讨论】</a>，后期将持续更新更多功能。
 
 ---
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/8db47a7f-bc68-4200-9bc7-8c09a8e3957a)
@@ -35,7 +35,8 @@ CTF-NetA具有以下功能：
 - 一键分离文件（导出的部分文件会存在问题，可进行手动导出）
 - 一键导出dicom,ftp-data,http,imf,smb,tftp协议对象
 - 一键修复错误流量包
-- 识别端口扫描（开放的端口）
+- 统计端口扫描（开放的端口）
+- 统计HTTP URI
 - DNS流量分析
 - 自动保存HTTP传输文件
 - webshell流量一键自动识别和解密
@@ -54,12 +55,13 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 联系
 
-时间紧工作忙，胡乱堆的代码，如果你发现任何问题，或有其他建议，请加QQ群373967548反馈。当然如果该软件对你有所帮助，希望你能点个Star！
+时间紧工作忙，胡乱堆的代码，如果你发现任何问题，或有其他建议，请加QQ群970434034反馈。当然如果该软件对你有所帮助，希望你能点个Star！
 ## 圈钱
-<div>
-  <img src="https://github.com/Arinue/CTF-NetA/assets/38693947/e24b4665-a636-4c03-9b1d-d6a2db3d79cd" alt="zfb Image" style="margin-right: 10px;" />
-  <img src="https://github.com/Arinue/CTF-NetA/assets/38693947/74438f6f-8e2e-4fd2-aa99-f2f34188ca79" alt="wx Image" />
-</div>
+支付宝          |  微信
+:-------------------------:|:-------------------------:
+![z](https://github.com/Arinue/CTF-NetA/assets/38693947/eca54f04-bf83-4b21-be14-e7834cb417e1) | ![w](https://github.com/Arinue/CTF-NetA/assets/38693947/d510501b-5449-4cd2-a1c1-279ef277cdc1)
+
+
 
 ## TODO
 - sql盲注
@@ -67,6 +69,7 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
   2. 单字符查询【√】
   3. ascii数字判断查询【√】
   4. 时间盲注
+       - 中间件盲注日志【√】
 - Webshell流量分析
 1. 菜刀蚁剑常规php流量分析【√】
 2. 冰蝎3.x流量解密和分析【√】
@@ -119,6 +122,19 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+v1.2.12 20240527
+1.增加sql盲注兼容性支持，能兼容识别更多特殊正则
+
+v1.2.11 20240523
+功能：
+    1.添加识别modbus data数据
+修复Bug:
+    1.修复webshell解密中的bx4_jsp_aes_with_magic类型脏数据去除不干净导致的BUG
+    2.修复文件保存中因匹配hex编码导致的异常BUG
+
+v1.2.10 20240520
+1.修复机器识别码获取中的BUG
+
 v1.2.9 20240520
 1.添加webshell解密成功的流量包序号
 

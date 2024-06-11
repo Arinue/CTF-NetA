@@ -2,11 +2,11 @@
 # CTF-NetA: CTF网络流量分析工具
 [![Build Status](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](#)
 [![GitHub download](https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release)](https://github.com/Arinue/CTF-NetA/releases)
-<a href="https://qm.qq.com/q/uxHLf7xifg"><img src="https://img.shields.io/badge/QQ%E7%BE%A4-970434034-orange?style=flat-square" alt="QQGroup"></a>
+<a href="https://qm.qq.com/q/zof4UXpFD2"><img src="https://img.shields.io/badge/QQ%E7%BE%A4-373967548-orange?style=flat-square" alt="QQGroup"></a>
 
 CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析提取flag，软件具有UI，不需要使用者具备任何基础能力。
 ## 获取软件
-编写该程序花费了本人大量休息时间，只需捐赠一杯咖啡即可获取并永久使用该软件（捐赠后加🐧群970434034联系群主）,<a href="https://qm.qq.com/q/uxHLf7xifg">点击链接加入群聊【CTF流量分析讨论】</a>，后期将持续更新更多功能。
+编写该程序花费了本人大量休息时间，只需捐赠一杯咖啡即可获取并永久使用该软件（捐赠后加🐧群373967548联系群主qq：MjUxNjA5MjMyMQ==）,<a href="https://qm.qq.com/q/zof4UXpFD2">点击链接加入群聊【CTF流量分析讨论】</a>，后期将持续更新更多功能。
 
 ---
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/34449109-909f-4586-ace0-319c469b0fff)
@@ -125,6 +125,28 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+v1.5.1
+1.增加ip.id数据的识别和处理兼容性
+2.修复antsword中部分密文解密失败的问题
+
+v1.5.0 20240605
+1.更新部分UI布局
+2.支持antsword rsa加密流量解密,需在【设置】中先设置公钥
+3.增加了授权错误提示！
+
+v1.4.2 20240604
+1.修复暗色和亮色主题切换后出现的显示问题
+2.优化文本搜索功能，增强字符高亮显示
+
+v1.4.1 20240603
+1.支持webshell解密中class检测和自动反编译
+2.优化功能【工具】，将工具输出转到终端作为日志输出
+3.支持自定义日志终端字体
+4.调整webshell解密功能为单选
+
+v1.3.2 20240601
+1.支持哥斯拉和冰蝎的内存马解密
+2.支持SCSI协议识别和传输文件导出
 v1.3.1 20240530
 1.修复http协议识别中bug
 2.优化sql盲注中多字符成对出现时匹配错位的bug

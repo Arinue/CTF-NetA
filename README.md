@@ -11,6 +11,9 @@ CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常
 > pro版获取说明：编写和维护该程序花费了本人大量休息时间，获取软件请加🐧群373967548联系群主qq：MjUxNjA5MjMyMQ==）,<a href="https://qm.qq.com/q/zof4UXpFD2">点击链接加入群聊【CTF流量分析讨论】</a>，后期将持续更新更多功能。
 
 ---
+![image](https://github.com/Arinue/CTF-NetA/assets/38693947/708c7453-33db-48d9-b1cc-a7a1fe2cde0a)
+
+
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/953439bf-24cf-4987-8aad-74fea65c0594)
 
 
@@ -130,6 +133,9 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+v1.5.3 20240613
+1.丧心病狂，添加了深浅两个粉色主题，目前共四种选择，在【设置】【切换主题颜色】选择
+
 v1.5.2 20240613
 1.优化大流量分析机制，大大减少分析时间
 2.修复诸多BUG

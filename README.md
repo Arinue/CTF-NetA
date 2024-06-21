@@ -70,7 +70,7 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 ## 圈钱
 支付宝          |  微信
 :-------------------------:|:-------------------------:
-![z](https://github.com/Arinue/CTF-NetA/assets/38693947/eca54f04-bf83-4b21-be14-e7834cb417e1) | ![w](https://github.com/Arinue/CTF-NetA/assets/38693947/d510501b-5449-4cd2-a1c1-279ef277cdc1)
+![z](https://github.com/Arinue/CTF-NetA/assets/38693947/eca54f04-bf83-4b21-be14-e7834cb417e1) | ![火柴截图20240621113220751](https://github.com/Arinue/CTF-NetA/assets/38693947/a2eaef34-7549-4035-87eb-78aefb794c10)
 
 
 

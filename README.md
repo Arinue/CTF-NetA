@@ -11,6 +11,9 @@ CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常
 > pro版获取说明：编写和维护该程序花费了本人大量休息时间，获取软件请加🐧群373967548联系群主qq：MjUxNjA5MjMyMQ==）,<a href="https://qm.qq.com/q/zof4UXpFD2">点击链接加入群聊【CTF流量分析讨论】</a>，后期将持续更新更多功能。
 
 ---
+![image](https://github.com/user-attachments/assets/115e1b27-ee0c-46b9-bda5-bdd25ed3edc2)
+
+
 ![image](https://github.com/Arinue/CTF-NetA/assets/38693947/708c7453-33db-48d9-b1cc-a7a1fe2cde0a)
 
 
@@ -133,6 +136,16 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+v1.7.0 20240728
+1.支持minidump解密cs流量
+2.使用子线程运行URI、open port、ips统计功能
+3.优化授权校验机制，增加更多提示信息
+
+v1.6.0 20240727
+1.重构日志输出
+2.加强webshell请求和响应流量日志分色显示
+3.明文关键字作为全局检测高亮
+4.修复antSword中识别文件出错的bug
 
 v1.5.4 20240615
 1.修复哥斯拉和冰蝎webshell解密中多处bug

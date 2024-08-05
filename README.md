@@ -133,6 +133,7 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 ```
 v1.8.1 20240805
 1.添加日志输出窗口右键base64 32 16 decode、url decode和一键发送至CyberChef
+2.将webshell中xor识别到的密钥优先级调低至手动设置的密钥之后
 
 v1.8.0 20240802
 1.添加mysql流量分析：

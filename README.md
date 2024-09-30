@@ -1,8 +1,12 @@
+<div align="center">
 
-# CTF-NetA: CTF网络流量分析工具
-[![Build Status](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](#)
-[![GitHub download](https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release)](https://github.com/Arinue/CTF-NetA/releases)
+![Version](images/logo.png)
+
+<h1 align="center">CTF-NetA: CTF网络流量分析工具</h1>
+
+<a href="https://github.com/Arinue/CTF-NetA/releases"><img src="https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release"></a>
 <a href="https://qm.qq.com/q/zof4UXpFD2"><img src="https://img.shields.io/badge/QQ%E7%BE%A4-373967548-orange?style=flat-square" alt="QQGroup"></a>
+</div>
 
 CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析提取flag，软件具有UI，不需要使用者具备任何基础能力。
 ## 获取软件
@@ -11,24 +15,10 @@ CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常
 > pro版获取说明：编写和维护该程序花费了本人大量休息时间，获取软件请加🐧群373967548查看群说明文件,<a href="https://qm.qq.com/q/zof4UXpFD2">点击链接加入群聊【CTF流量分析讨论】</a>，后期将持续更新更多功能。
 
 ---
-![image](https://github.com/user-attachments/assets/115e1b27-ee0c-46b9-bda5-bdd25ed3edc2)
 
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/708c7453-33db-48d9-b1cc-a7a1fe2cde0a)
-
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/953439bf-24cf-4987-8aad-74fea65c0594)
-
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/34449109-909f-4586-ace0-319c469b0fff)
-
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/8db47a7f-bc68-4200-9bc7-8c09a8e3957a)
-
-
-![image](https://github.com/Arinue/CTF-NetA/assets/38693947/5193b59d-fd74-40ea-b2fa-974f47e51041)
-
-
+![Version](images/img3.png)
+![Version](images/img2.png)
+![Version](images/img3.png)
 
 ## 功能
 

@@ -21,6 +21,7 @@ CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常
 > 点击链接加入群聊【CTF流量分析交流群3】：<a href="https://qm.qq.com/q/MGmEIcrjKE">CTF流量分析交流群3</a>
 ---
 
+![Version](images/img5.png)
 ![Version](images/img4.png)
 ![Version](images/img3.png)
 ![Version](images/img2.png)
@@ -127,6 +128,9 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+V2.6.0 2025
+1.添加shiro攻击流量解密和分析
+
 V2.5.1 20241231
 1.修复WINRM流量使用密码解密失败的bug
 

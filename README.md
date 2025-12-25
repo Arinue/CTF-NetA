@@ -13,7 +13,7 @@ CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常
 免费版请查看<a href="https://github.com/Arinue/CTF-NetA/releases/tag/CTF-NetA-V0.3.0">releases 0.3.0</a>进行下载。
 > 
 > pro版获取说明：编写和维护该程序花费了本人大量休息时间，获取软件请加🐧群下载：后期将持续更新更多功能。
->
+捐赠版点此<a href="https://github.com/Arinue/CTF-NetA/releases">下载<img src="https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release"></a>，也可以进群交流和下载软件
 > 点击链接加入群聊【CTF流量分析交流群】：<a href="https://qm.qq.com/q/uJKoG2ymhW">CTF流量分析交流群</a>
 qq群4：736804827
 qq群5：940570785
@@ -618,6 +618,7 @@ v0.1.33
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Arinue/CTF-NetA&type=Date)](https://star-history.com/#Arinue/CTF-NetA&Date)
+
 
 
 

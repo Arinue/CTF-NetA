@@ -8,16 +8,15 @@
 <a href="https://qm.qq.com/q/zof4UXpFD2"><img src="https://img.shields.io/badge/QQ%E7%BE%A4-373967548-orange?style=flat-square" alt="QQGroup"></a>
 </div>
 
-CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析提取flag，软件具有UI，不需要使用者具备任何基础能力。
+CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析提取flag，软件具有UI，常规使用不需要使用者具备任何基础能力。
 ## 获取软件
+
 免费版请查看<a href="https://github.com/Arinue/CTF-NetA/releases/tag/CTF-NetA-V0.3.0">releases 0.3.0</a>进行下载。
-> 
-> pro版获取说明：编写和维护该程序花费了本人大量休息时间，获取软件请加🐧群下载：后期将持续更新更多功能。
-捐赠版点此<a href="https://github.com/Arinue/CTF-NetA/releases">下载<img src="https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release"></a>，也可以进群交流和下载软件
-> 点击链接加入群聊【CTF流量分析交流群】：<a href="https://qm.qq.com/q/uJKoG2ymhW">CTF流量分析交流群</a>
-qq群4：736804827
-qq群5：940570785
----
+
+Pro版点击<a href="https://github.com/Arinue/CTF-NetA/releases">此链接下载<img src="https://img.shields.io/github/tag/Arinue/CTF-NetA.svg?label=release"></a>，也可以进群交流和下载软件；加入QQ群【CTF流量分析交流群】：<a href="https://qm.qq.com/q/uJKoG2ymhW">CTF流量分析交流群</a> 。另外qq群4：736804827 qq群5：940570785
+> Pro版捐赠说明：编写和维护该程序花费了本人大量休息时间，获取软件需捐赠，后期将持续更新更多功能。
+
+## 软件界面
 
 ![Version](images/img5.png)
 ![Version](images/img4.png)
@@ -127,6 +126,10 @@ CTF-NetA使用<a href="./LICENSE">MT @ M1r4n</a>进行许可。你可以自由�
 
 ## 更新记录
 ```
+V2.12.01 20251223
+【更新请在qq群或者github下载完整版,不支持一键升级】
+1.添加RDP流量重放功能需自行获取Private key或key log（感谢师傅@aristorechina 提供脚本）。
+
 V2.11.33 20251203
 1.修复bug
 2.增强容错
@@ -618,6 +621,7 @@ v0.1.33
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Arinue/CTF-NetA&type=Date)](https://star-history.com/#Arinue/CTF-NetA&Date)
+
 
 
 
